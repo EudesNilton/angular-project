@@ -1,0 +1,28 @@
+.container__big-card{
+  width: 400px;
+  height: 600;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.big-cart__title > h1{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.big-card__description {
+  margin-top: 20px;
+}
+.big-card__description > p > a{
+  color: #363636;
+}
+
+.big-cart__photo > img{
+  min-width: 400px;
+  height: 350px;
+}
